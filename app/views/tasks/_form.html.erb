@@ -13,7 +13,8 @@
 
   <div class="form-group">
   <%= f.label :status, 'ステータス' %>
-  <%= f.select :status, [["",""],["未完了","未完了"],["完了","完了"]], class: 'form-control'  %>
+  
+   <%= f.select :status, [["",""],["未完了","未完了"],["完了","完了"]], {}, class: 'form-control'  %>
   </div>
 
   <div class="form-group">
